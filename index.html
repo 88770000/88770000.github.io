@@ -3,30 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merry Christmas</title>
+    <title>Merry Christmas!</title>
     <style>
         body {
-            background: #f0f0f0;
-            text-align: center;
+            background: #f3f3f3;
             font-family: 'Arial', sans-serif;
             color: #333;
-            padding: 50px;
+            text-align: center;
         }
         h1 {
             color: #ff0000;
-            font-size: 48px;
-            margin-bottom: 20px;
+            font-size: 60px;
+            margin-top: 50px;
         }
-        p {
-            font-size: 20px;
-        }
-        .christmas {
+        .message {
+            font-size: 24px;
             color: #008000;
+        }
+        .snowflake {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            font-size: 2rem;
+            color: #fff;
+            animation: fall 3s infinite;
+        }
+        @keyframes fall {
+            0% { top: -50px; opacity: 1; }
+            100% { top: 100%; opacity: 0; }
         }
     </style>
 </head>
 <body>
     <h1>Merry Christmas!</h1>
-    <p class="christmas">Wishing you joy, peace, and love this holiday season!</p>
+    <p class="message">May your holiday season be filled with joy and love!</p>
+
+    <!-- Snowflakes -->
+    <div class="snowflake" style="left: 10%;">❄️</div>
+    <div class="snowflake" style="left: 20%;">❄️</div>
+    <div class="snowflake" style="left: 30%;">❄️</div>
+    <div class="snowflake" style="left: 40%;">❄️</div>
+    <div class="snowflake" style="left: 50%;">❄️</div>
+    <div class="snowflake" style="left: 60%;">❄️</div>
+    <div class="snowflake" style="left: 70%;">❄️</div>
+    <div class="snowflake" style="left: 80%;">❄️</div>
+    <div class="snowflake" style="left: 90%;">❄️</div>
 </body>
 </html>
